@@ -19,6 +19,28 @@ const etàPasseggero = parseInt(prompt("Inserisci l'età del passeggero:"));
 const prezzoAlKm = 0.21;
 constprezzoBase = chilometri * prezzoAlKm;
 
+// Sconto del 20% per i minorenni.
+if (etaPasseggero < 18) {
+    prezzoBase *= 0.8; // Sconto del 20%
+}
+
+// Sconto del 40% per gli over 65.
+else if (etaPasseggero > 65) {
+    prezzoBase *= 0.6; // Sconto del 40%
+}
+
+// Output del prezzo finale con due decimali.
+let prezzoFinale = prezzoBase.toFixed(2);
+
+// Prezzo finale in forma umana.
+console.log(`Il prezzo totale del biglietto è: €${prezzoFinale}`);
+
+
+
+
+
+
+
 
 
 
