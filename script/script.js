@@ -15,7 +15,9 @@ const chilometri = parseFloat(prompt("Inserisci il numero di chilometri che vuoi
 const etàPasseggero = parseInt(prompt("Inserisci l'età del passeggero:"));
 
 
-// Il prezzo del biglietto in base ai km 
+// Il prezzo del biglietto in base ai km.
+const prezzoAlKm = 0.21;
+constprezzoBase = chilometri * prezzoAlKm;
 
 
 
