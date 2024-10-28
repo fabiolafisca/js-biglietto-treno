@@ -10,7 +10,7 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio,
 */
 
 /* Prezzo del biglietto */
-// Chiedere all'utente il numero di chilometri che vuole percorrere e l'età del passeggero
+// Chiedere all'utente il numero di chilometri che vuole percorrere e l'età del passeggero.
 const chilometri = parseFloat(prompt("Inserisci il numero di chilometri che vuoi percorrere:"));
 const etàPasseggero = parseInt(prompt("Inserisci l'età del passeggero:"));
 
